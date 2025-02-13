@@ -9,7 +9,7 @@ const validator = require('validator')
 const app = express()
 
 const corsOptions = {
-    origin: '*', // Permite solicitudes desde cualquier origen
+    origin: 'https://donwloader-make.netlify.app', // Permite solicitudes desde cualquier origen
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Métodos HTTP permitidos
     allowedHeaders: ['Content-Type', 'Authorization'], // Encabezados permitidos
   };
